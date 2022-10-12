@@ -13,9 +13,8 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', async message => {
-    if (message.author.username === 'Aldrost') {
+    if (message.author.username === 'MugiwaraNoNelli') {
         message.react('🥚');
-		console.log('🥚');
     }
 });
 
