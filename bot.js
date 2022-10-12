@@ -15,6 +15,7 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
     if (message.author.username === 'Aldrost') {
         message.react('🥚');
+		console.log('🥚');
     }
 });
 
